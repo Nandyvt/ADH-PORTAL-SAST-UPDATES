@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_8235" data-name="Group 8235" transform="translate(-862 -502)">
+    <g id="Icons-tick" transform="translate(866.5 507.75)">
+      <path id="Icons_tick" data-name="Icons / tick" d="M8.279,11.882a.9.9,0,0,1-.639-.264L5.212,9.187a.89.89,0,0,1,0-1.265.9.9,0,0,1,1.273,0l1.8,1.8,4.158-4.084a.9.9,0,0,1,1.273.007.89.89,0,0,1-.007,1.265l-4.8,4.712A.9.9,0,0,1,8.279,11.882Z" transform="translate(-4.95 -5.382)" fill="#c10e21" stroke="#c10e21" stroke-linecap="round" stroke-width="0.2"/>
+    </g>
+    <g id="Rectangle_4905" data-name="Rectangle 4905" transform="translate(862 502)" fill="none" stroke="#c10f21" stroke-width="1.5">
+      <rect width="18" height="18" rx="9" stroke="none"/>
+      <rect x="0.75" y="0.75" width="16.5" height="16.5" rx="8.25" fill="none"/>
+    </g>
+  </g>
+</svg>

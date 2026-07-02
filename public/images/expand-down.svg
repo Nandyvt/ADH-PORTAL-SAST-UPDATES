@@ -1,0 +1,7 @@
+<svg id="Form_Table_down_sort_arrow" data-name="Form / Table down sort arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Bg" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="Arrow" d="M1823.117,64.249l4.171,4.171,4.171-4.171" transform="translate(-1815.617 -54.749)" fill="none" stroke="#222328" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

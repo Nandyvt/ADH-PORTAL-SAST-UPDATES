@@ -1,0 +1,338 @@
+@use "./variables.scss";
+
+* {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+input,
+textarea,
+select {
+  -webkit-touch-callout: auto;
+  /* iOS Safari */
+  -webkit-user-select: auto;
+  /* Safari */
+  -khtml-user-select: auto;
+  /* Konqueror HTML */
+  -moz-user-select: auto;
+  /* Old versions of Firefox */
+  -ms-user-select: auto;
+  /* Internet Explorer/Edge */
+  user-select: auto;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: 0;
+  overflow: hidden;
+}
+
+.aui-skip-content {
+  padding: 16px;
+  color: #c10e21;
+  position: absolute;
+  left: -9999px;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+  &:focus {
+    left: 0;
+    z-index: 2000;
+  }
+}
+
+.header-fixed,
+.login-header {
+  position: sticky !important;
+  top: 0 !important;
+  display: block !important;
+  z-index: 1000 !important;
+  transition: top 0.3s !important;
+}
+.button-fixed {
+  position: sticky !important;
+  top: 95% !important;
+  display: block !important;
+  z-index: 1000 !important;
+  transition: bottom 0.3s !important;
+}
+.bottom-70 {
+  bottom: -70px !important;
+}
+.login-header {
+  max-width: 100% !important;
+}
+.top-70 {
+  top: -70px !important;
+}
+.top-103 {
+  top: -103px !important;
+}
+.top-0 {
+  top: 0 !important;
+}
+.bottom-0 {
+  bottom: 0 !important;
+}
+.boldCount {
+  font-weight: 500;
+}
+.aha-breadcrumb {
+  .breadcrumb-item {
+    color: #c10e21;
+
+    &:last-child {
+      color: #525252;
+
+      &::after {
+        content: "";
+      }
+    }
+
+    .breadcrumb_link {
+      background: transparent;
+      border: none;
+      color: inherit;
+    }
+  }
+}
+
+.aui-responsive-status-table {
+  thead {
+    th {
+      .aui-th {
+        padding: 1rem 0.625rem;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      .aui-td {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: Montserrat;
+        color: #222328;
+        padding: 0.75rem 0.625rem;
+      }
+    }
+
+    /* Styles for Different role status - Active, Inactive, Pending*/
+
+    tr.roleStyles {
+      background-color: #fff;
+    }
+
+    tr.aui-table-status-active {
+      > td:first-child {
+        .aui-td {
+          border-left: 4px solid #329300;
+        }
+      }
+    }
+
+    tr.aui-table-status-inactive {
+      > td:first-child {
+        .aui-td {
+          border-left: 4px solid #343a40;
+        }
+      }
+    }
+  }
+}
+
+ul.pagination {
+  .page-item {
+    .page-link {
+      color: #222328;
+      font: normal normal normal 16px Montserrat;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+
+  .page-item.active {
+    .page-link {
+      border: 1.6px solid #c10e21;
+      color: #c10e21;
+      text-decoration: none;
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .modal-header {
+    margin: 0 -0.9375rem !important;
+    padding: 0 0.9375rem 1rem !important;
+  }
+  .client-action:last-child {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+  }
+}
+.modal-open .modal {
+  @media only screen and (max-height: 577px) and (max-width: 900px) and (orientation: landscape) {
+    overflow-y: auto !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  main {
+    .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .iPad-prStyle {
+      padding-right: 1.875rem !important;
+    }
+  }
+
+  .aui-responsive-status-table {
+    tbody {
+      tr {
+        td {
+          &:before {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0.75rem 0.625rem;
+            font-weight: 600;
+          }
+
+          .adh-anchorStyle + p {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .ellipses {
+        transform: translate(-10%, -15%);
+      }
+    }
+  }
+}
+
+/* @media screen and (min-width: 993px) {
+  .btnEllipses {
+    &:focus {
+      line-height: 1;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+  }
+} */
+
+.multiSelectContainer {
+  .searchWrapper {
+    input {
+      cursor: pointer !important;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sideMenuMobPosRelative {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 758px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  #root {
+    > .d-flex.flex-column {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media screen and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  html {
+    height: 100%;
+  }
+  .loginPageStickySec {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 200px;
+    footer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+.aui-modal {
+  cursor: not-allowed;
+}
+.modal-content {
+  cursor: default;
+}
+iframe[style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; border: none; z-index: 2147483647;"] {
+  pointer-events: none;
+  display: none !important;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal-open {
+  .modal-backdrop {
+    display: inline-block;
+  }
+}
+
+.heading-border {
+  border-bottom: 1px solid var(---cecece);
+  margin-bottom: 1.75rem;
+}
+
+
+/* Styles override needed for adh after aui v2 package upgrade - start */
+.btn.btn-link-arrow , .btn.btn-text , .btn-link-style{
+  text-decoration: none !important;
+}
+
+/* style to add gap between table header and first row of table - start */
+.aui-responsive-status-table table tbody:first-of-type::before {
+  content: "";
+  display: block;
+  height: 1.25rem;
+}
+/* style to add gap between table header and first row of table - end */
+
+/* Accessibilit sr-only styles */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+

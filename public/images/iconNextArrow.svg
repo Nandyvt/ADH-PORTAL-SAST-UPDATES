@@ -1,0 +1,10 @@
+<svg id="icons_View_Permissions_next_arrow" data-name="icons / View Permissions /next arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="bg" fill="#c10e21" stroke="#e3e3e3" stroke-width="1">
+    <rect width="40" height="40" rx="6" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"/>
+  </g>
+  <g id="Icon_RIght-Arrow_Link" data-name="Icon/RIght-Arrow/Link" transform="translate(11.426 13)">
+    <path id="RIght_Arrow_Link" data-name="RIght Arrow / Link" d="M0,0,6.534,6.534,13.069,0" transform="translate(8.574 13.069) rotate(-90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3474" data-name="Path 3474" d="M29.767,23.535H15.426" transform="translate(-15.426 -17)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

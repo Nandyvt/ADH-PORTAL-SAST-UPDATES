@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257.487" height="240.936" viewBox="0 0 257.487 240.936">
+  <g id="Group_5007" data-name="Group 5007" transform="translate(-594.513 -523.543)">
+    <g id="excel" transform="translate(594.513 507.554)">
+      <path id="Path_3070" data-name="Path 3070" d="M376.463,256.69H264.031A8.034,8.034,0,0,1,256,248.659V88.042a8.034,8.034,0,0,1,8.031-8.031H376.463a8.034,8.034,0,0,1,8.031,8.031V248.659A8.034,8.034,0,0,1,376.463,256.69Z" transform="translate(-127.506 -31.887)" fill="#eceff1" stroke="#c10e21" stroke-width="1"/>
+      <path id="Path_3079" data-name="Path 3079" d="M141.648,17.847a7.891,7.891,0,0,0-6.6-1.7L6.553,40.237A8.008,8.008,0,0,0,0,48.124V224.8a8.021,8.021,0,0,0,6.553,7.886l128.494,24.093a7.556,7.556,0,0,0,1.478.145,8.031,8.031,0,0,0,8.031-8.031V24.031A8.01,8.01,0,0,0,141.648,17.847Z" transform="translate(0 0)" fill="#c10e21"/>
+    </g>
+    <line id="Line_797" data-name="Line 797" x2="91" transform="translate(743.5 593.5)" fill="none" stroke="#c10e21" stroke-width="1"/>
+    <line id="Line_798" data-name="Line 798" x2="91" transform="translate(743.5 612.985)" fill="none" stroke="#c10e21" stroke-width="1"/>
+    <line id="Line_799" data-name="Line 799" x2="91" transform="translate(743.5 632.471)" fill="none" stroke="#c10e21" stroke-width="1"/>
+    <line id="Line_800" data-name="Line 800" x2="91" transform="translate(743.5 651.956)" fill="none" stroke="#c10e21" stroke-width="1"/>
+    <g id="Ellipse_132" data-name="Ellipse 132" transform="translate(612 585)" fill="none" stroke="#fff" stroke-width="8">
+      <ellipse cx="45.5" cy="55" rx="45.5" ry="55" stroke="none"/>
+      <ellipse cx="45.5" cy="55" rx="41.5" ry="51" fill="none"/>
+    </g>
+    <line id="Line_796" data-name="Line 796" x2="63" y2="57" transform="translate(625 612.985)" fill="none" stroke="#fff" stroke-width="9"/>
+  </g>
+</svg>

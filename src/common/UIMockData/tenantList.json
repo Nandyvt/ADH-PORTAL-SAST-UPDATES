@@ -1,0 +1,43 @@
+[
+    {
+      "ID": 2121421,
+      "tenantName": "ADH",
+      "tenantCode": "ADH",
+      "tenantDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tenantStatus": "Active",
+      "tenantAction" :"Ellipses"
+    },
+    {
+      "ID": 2121422,
+      "tenantName": "ADH",
+      "tenantCode": "ADH",
+      "tenantDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tenantStatus": "Inactive",
+      "tenantAction" :"Ellipses"
+    },
+    {
+      "ID": 2121423,
+      "tenantName": "ADH",
+      "tenantCode": "ADH",
+      "tenantDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tenantStatus": "Active",
+      "tenantAction" :"Ellipses"
+    },
+    {
+      "ID": 2121424,
+      "tenantName": "ADH",
+      "tenantCode": "ADH",
+      "tenantDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tenantStatus": "Active",
+      "tenantAction" :"Ellipses"
+    },
+    {
+      "ID": 2121425,
+      "tenantName": "ADH",
+      "tenantCode": "ADH",
+      "tenantDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tenantStatus": "Active",
+      "tenantAction" :"Ellipses"
+    }
+  ]
+  

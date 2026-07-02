@@ -1,0 +1,7 @@
+<svg id="Icons_Plus_circle" data-name="Icons/Plus/circle" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <circle id="Ellipse_137" data-name="Ellipse 137" cx="30" cy="30" r="30" fill="#c10e21" opacity="0.1"/>
+  <g id="Icons_Plus" data-name="Icons/Plus" transform="translate(17.5 17.5)">
+    <rect id="_2" data-name="2" width="3" height="25" rx="1.5" transform="translate(11)" fill="#c10e21"/>
+    <rect id="_1" data-name="1" width="3" height="25" rx="1.5" transform="translate(25 11) rotate(90)" fill="#c10e21"/>
+  </g>
+</svg>

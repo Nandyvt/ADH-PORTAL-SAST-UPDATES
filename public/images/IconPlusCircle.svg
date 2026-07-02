@@ -1,0 +1,6 @@
+<svg id="Icons_Plus_circle" data-name="Icons/Plus/circle" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <circle id="bg" cx="20" cy="20" r="20" fill="#c10e21" opacity="0.1"/>
+  <g id="Icons_Plus" data-name="Icons/Plus" transform="translate(11.666 11.667)">
+    <path id="Union_1" data-name="Union 1" d="M7.334,15.666V9.333H1a1,1,0,0,1,0-2H7.334V1a1,1,0,0,1,2,0V7.333h6.333a1,1,0,1,1,0,2H9.334v6.333a1,1,0,0,1-2,0Z" fill="#c10e21"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.34" height="13.441" viewBox="0 0 21.34 13.441">
+  <g id="icon_-_sort_z-a" data-name="icon - sort z-a" transform="translate(19.926 12.441) rotate(180)">
+    <g id="up" transform="translate(12)">
+      <path id="Path_3631" data-name="Path 3631" d="M3.775,10.746l3.5-3.335,3.431,3.554" transform="translate(-3.775 -7.411)" fill="none" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+      <path id="Path_3692" data-name="Path 3692" d="M7.75,11.371V.75" transform="translate(-4.282 0.07)" fill="none" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/>
+    </g>
+    <g id="up-2" data-name="up" transform="translate(6.936 11.441) rotate(180)">
+      <path id="Path_3631-2" data-name="Path 3631" d="M3.775,10.746l3.5-3.335,3.431,3.554" transform="translate(-3.775 -7.411)" fill="none" stroke="#0d7712" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_3692-2" data-name="Path 3692" d="M7.75,11.371V.75" transform="translate(-4.282 0.07)" fill="none" stroke="#0d7712" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

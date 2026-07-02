@@ -1,0 +1,49 @@
+$cyan-gray: #bcc3ca;
+$red: #c10e21;
+:root {
+  --warning-icon-color: #8e6d00;
+  --error-text-color: #7a600a;
+  --box-shadow-color: #00000029;
+  --error-box-color: #fef0d0;
+  --notificationType-color: #205a03;
+  --notificationType-bgColor: rgb(35 103 0 / 10%);
+
+  /* common colors used for different roles */
+  --superAdmin-superUser-color: #b50b1c;
+  --superAdmin-superUser-bgColor: rgba(193, 14, 33, 0.1);
+
+  --primary-black: #222328;
+
+  --clientAdmin-color: #13655e;
+  --clientAdmin-bgColor: rgba(0, 157, 147, 0.1);
+
+  --endUser-color: #0e5d8f;
+  --endUser-bgColor: rgba(25, 120, 178, 0.1);
+
+  --inactiveRole-color: #555555;
+  --inactiveRole-bgColor: rgba(112, 112, 112, 0.1);
+
+  --cecece: #cecece;
+
+  --daterangepicker-headerColor: #707070;
+  --primary-c10e21: #c10e21;
+  --active-band: #2e8104;
+  --pending-band: #0081b2;
+  --bg-white: #ffffff;
+  --datepicker-cell-hoverclr: #9d0b1b;
+  --datepicker-icon-bgColor: #ededed;
+
+  --cursorPagination-bgColor: #e8ecee;
+  --cursorPagination-borderColor: #dee2e6;
+
+  --datepicker-sel-color: #767676;
+
+  --aui-header-borderclr : #e3e3e3;
+
+  --placeholder-color : #555555;
+
+  --noconsumer-textclr : #000000;
+
+}
+
+$border-grey: $cyan-gray;

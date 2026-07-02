@@ -1,0 +1,11 @@
+<svg id="icons_kebab_more" data-name="icons/kebab/more" xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24">
+  <g id="bg" fill="#222328" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="25" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="24" height="23" fill="none"/>
+  </g>
+  <g id="Icon" transform="translate(2 10)">
+    <circle id="Ellipse_134" data-name="Ellipse 134" cx="2" cy="2" r="2" fill="#222328"/>
+    <circle id="Ellipse_135" data-name="Ellipse 135" cx="2" cy="2" r="2" transform="translate(8)" fill="#222328"/>
+    <circle id="Ellipse_136" data-name="Ellipse 136" cx="2" cy="2" r="2" transform="translate(16)" fill="#222328"/>
+  </g>
+</svg>

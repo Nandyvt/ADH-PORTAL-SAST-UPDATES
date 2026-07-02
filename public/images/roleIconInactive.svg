@@ -1,0 +1,12 @@
+<svg id="Inactive_role_icon" data-name="Inactive role icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="11.476" viewBox="0 0 12 11.476">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3911" data-name="Rectangle 3911" width="12" height="11.476" fill="#ff8400"/>
+    </clipPath>
+  </defs>
+  <g id="Icons_Alert" data-name="Icons/Alert">
+    <g id="Group_6138" data-name="Group 6138" clip-path="url(#clip-path)">
+      <path id="Path_3045" data-name="Path 3045" d="M0,9.853V9.5a5.286,5.286,0,0,1,.264-.731Q2.355,4.837,4.464.919A1.661,1.661,0,0,1,5.2.195a1.738,1.738,0,0,1,2.358.77Q8.646,2.988,9.73,5.013c.7,1.3,1.4,2.606,2.09,3.916a1.776,1.776,0,0,1-.375,2.061,1.8,1.8,0,0,1-1.281.487q-4.164,0-8.329,0c-.047,0-.094,0-.141,0a1.684,1.684,0,0,1-1.506-1A3.972,3.972,0,0,1,0,9.853M5.3,5.4v.416c0,.452,0,.9,0,1.355a.7.7,0,0,0,.933.691A.715.715,0,0,0,6.7,7.147q0-1.735,0-3.47A.991.991,0,0,0,6.687,3.5.7.7,0,0,0,5.9,2.925a.706.706,0,0,0-.6.732c0,.582,0,1.165,0,1.747M6,10.046a.709.709,0,0,0,.7-.708.7.7,0,1,0-1.4,0,.709.709,0,0,0,.7.707" transform="translate(0 0)" fill="#ff8400"/>
+    </g>
+  </g>
+</svg>

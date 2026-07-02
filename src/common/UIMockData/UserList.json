@@ -1,0 +1,166 @@
+[
+    {
+       "ID":2121421,
+       "details":{
+          "userName":"Jerin John",
+          "userID":898985
+       },
+       "emailID":"jerin.john@heart.org",
+       
+       "roles":[{
+          "roleName" : "Super Admin",
+          "roleCode" : "SA",
+          "helpText" : ""
+       },
+       {
+         "roleName" : "AHA - Admin",
+         "roleCode" : "AHA",
+         "helpText" : ""
+      },
+      {
+         "roleName" : "shopCPR - User",
+         "roleCode" : "SCPRU",
+         "helpText" : "VIEW"
+      },
+      {
+         "roleName" : "Care Plan - User",
+         "roleCode" : "CPU",
+         "helpText" : "DEACTIVATE"
+      }],
+       "status":"Active",
+       "action":"Ellipses"
+    },
+    {
+       "ID":2121422,
+       "details":{
+          "userName":"Jerin John",
+          "userID":898985
+       },
+       "emailID":"jerin.john@heart.org",
+       "roles" : [
+         {
+            "roleName" : "Super Admin",
+            "roleCode" : "SA",
+            "helpText" : ""
+         },
+         {
+           "roleName" : "AHA - Admin",
+           "roleCode" : "AHA",
+           "helpText" : ""
+        },
+        {
+           "roleName" : "shopCPR - User",
+           "roleCode" : "SCPRU",
+           "helpText" : "VIEW"
+        },
+        {
+           "roleName" : "Care Plan - User",
+           "roleCode" : "CPU",
+           "helpText" : "DEACTIVATE"
+        },
+        {
+         "roleName" : "Super - User",
+         "roleCode" : "SPU",
+         "helpText" : "DEACTIVATE"
+        },
+        {
+            "roleName" : "Impelsys - Admin",
+            "roleCode" : "IMPA",
+            "helpText" : ""
+        },
+        {
+            "roleName" : "Option N - Admin",
+            "roleCode" : "SA",
+            "helpText" : ""
+        },
+        {
+            "roleName" : "AHA - User",
+            "roleCode" : "SCPRU",
+            "helpText" : ""
+        }
+       ],
+       "status":"Pending",
+       "action":"Ellipses"
+    },
+    {
+       "ID":2121423,
+       "details":{
+          "userName":"Jerin John",
+          "userID":898985
+       },
+       "emailID":"jerin.john@heart.org",
+       "roles":[
+         {
+            "roleName" : "Super Admin",
+            "roleCode" : "SA",
+            "helpText" : ""
+         },
+         {
+           "roleName" : "AHA - Admin",
+           "roleCode" : "AHA",
+           "helpText" : ""
+        },
+        {
+           "roleName" : "shopCPR - User",
+           "roleCode" : "SCPRU",
+           "helpText" : "VIEW"
+        }
+       ],
+       "status":"Inactive",
+       "action":"Ellipses"
+    },
+    {
+       "ID":2121424,
+       "details":{
+          "userName":"Jerin John",
+          "userID":898985
+       },
+       "emailID":"jerin.john@heart.org",
+       "roles":[
+         {
+            "roleName" : "Super Admin",
+            "roleCode" : "SA",
+            "helpText" : ""
+         },
+         {
+           "roleName" : "AHA - Admin",
+           "roleCode" : "AHA",
+           "helpText" : ""
+        },
+        {
+           "roleName" : "shopCPR - User",
+           "roleCode" : "SCPRU",
+           "helpText" : "VIEW"
+        }
+       ],
+       "status":"Active",
+       "action":"Ellipses"
+    },
+    {
+       "ID":2121425,
+       "details":{
+          "userName":"Jerin John",
+          "userID":898985
+       },
+       "emailID":"jerin.john@heart.org",
+       "roles":[
+         {
+            "roleName" : "Super Admin",
+            "roleCode" : "SA",
+            "helpText" : ""
+         },
+         {
+           "roleName" : "AHA - Admin",
+           "roleCode" : "AHA",
+           "helpText" : ""
+        },
+        {
+           "roleName" : "shopCPR - User",
+           "roleCode" : "SCPRU",
+           "helpText" : "VIEW"
+        }
+       ],
+       "status":"Active",
+       "action":"Ellipses"
+    }
+ ]
