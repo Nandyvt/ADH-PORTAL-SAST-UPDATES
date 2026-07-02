@@ -59,3 +59,4 @@ extent-test-output/
 **/__snapshots__/**
 
 *automation*
+npmrc
