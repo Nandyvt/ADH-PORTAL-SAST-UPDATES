@@ -33,7 +33,7 @@ pipeline {
         // Uses environments/.env.aws directly - fill in REACT_APP_SSO_redirect_uri /
         // post_logout_redirect_uri in that file once the CloudFront
         // domain is known (DEPLOYMENT.md, Part 6).
-        sh 'npx env-cmd -f environments/.env.aws react-scripts build'
+        sh 'NODE_OPTIONS=--max-old-space-size=1024 npx env-cmd -f environments/.env.aws react-scripts build'
       }
     }
 
