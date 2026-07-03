@@ -1,0 +1,80 @@
+// Jenkins pipeline: builds the React frontend for the "aws" environment and
+// publishes it to S3 + invalidates CloudFront.
+//
+// Configure these as Jenkins credentials / global env vars before running
+// (see DEPLOYMENT.md, Part 4):
+//   AWS_ACCOUNT_ID, AWS_REGION, S3_BUCKET, CLOUDFRONT_DISTRIBUTION_ID
+// AWS credentials are picked up from the Jenkins EC2 instance's IAM role
+// (no access keys stored in Jenkins).
+
+pipeline {
+  agent any
+
+  environment {
+    AWS_REGION = "${AWS_REGION ?: 'ap-south-2'}"
+    BUILD_ENV  = 'aws'
+  }
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Install dependencies') {
+      steps {
+        dir('frontend') {
+          withCredentials([file(credentialsId: 'npmrc-file', variable: 'NPMRC')]) {
+            sh '''
+              cp $NPMRC .npmrc
+              npm ci
+              rm -f .npmrc
+            '''
+          }
+        }
+      }
+    }
+
+    stage('Build') {
+      steps {
+        dir('frontend') {
+          // Uses environments/.env.aws directly (no npm script exists for
+          // this env yet) - fill in REACT_APP_SSO_redirect_uri /
+          // post_logout_redirect_uri in that file once the CloudFront
+          // domain is known (DEPLOYMENT.md, Part 6).
+          sh 'npx env-cmd -f environments/.env.aws react-scripts build'
+        }
+      }
+    }
+
+    stage('Deploy to S3') {
+      steps {
+        dir('frontend') {
+          sh """
+            aws s3 sync build/ s3://${S3_BUCKET} --delete --region ${AWS_REGION}
+          """
+        }
+      }
+    }
+
+    stage('Invalidate CloudFront cache') {
+      steps {
+        sh """
+          aws cloudfront create-invalidation \
+            --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} \
+            --paths "/*"
+        """
+      }
+    }
+  }
+
+  post {
+    success {
+      echo "Frontend deployed to s3://${S3_BUCKET} and CloudFront cache invalidated."
+    }
+    failure {
+      echo 'Frontend deployment failed - check the stage logs above.'
+    }
+  }
+}
