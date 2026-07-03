@@ -24,13 +24,7 @@ pipeline {
 
     stage('Install dependencies') {
       steps {
-        withCredentials([file(credentialsId: 'npmrc-file', variable: 'NPMRC')]) {
-          sh '''
-            cp $NPMRC .npmrc
-            npm ci
-            rm -f .npmrc
-          '''
-        }
+        sh 'npm ci --legacy-peer-deps'
       }
     }
 
