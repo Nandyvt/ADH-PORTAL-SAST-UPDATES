@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@american-heart/aui": "3.0.3",
+    "@american-heart/aui": "file:vendor/american-heart-aui-3.0.3.tgz",
     "@babel/polyfill": "^7.12.1",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
