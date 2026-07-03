@@ -26,12 +26,11 @@ const config: any = {
     gatewayURL: "http://localhost:8080/",
     // gatewayURL: "https://adh-api-dev.heartblr.org",
   },
-  // AWS demo/PoC environment - points at the ALB Ingress fronting api-gateway
-  // in EKS. Replace with the real ALB DNS name from:
-  //   kubectl -n adh-portal get ingress adh-portal-ingress
-  // See /DEPLOYMENT.md for the full setup.
+  // AWS demo/PoC environment - API calls route through CloudFront (/account/*,
+  // /hub/*) which proxies to the ALB Ingress fronting api-gateway in EKS.
+  // Using the CloudFront domain avoids mixed-content and CORS issues.
   aws: {
-    gatewayURL: "http://k8s-adhporta-adhporta-3c9dc52433-1009661923.ap-south-2.elb.amazonaws.com",
+    gatewayURL: "https://d9cdknxkhhfuj.cloudfront.net",
   },
 };
 
