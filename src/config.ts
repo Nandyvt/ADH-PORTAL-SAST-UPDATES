@@ -31,7 +31,7 @@ const config: any = {
   //   kubectl -n adh-portal get ingress adh-portal-ingress
   // See /DEPLOYMENT.md for the full setup.
   aws: {
-    gatewayURL: "http://<REPLACE_WITH_ALB_DNS_NAME>",
+    gatewayURL: "http://k8s-adhporta-adhporta-3c9dc52433-1009661923.ap-south-2.elb.amazonaws.com",
   },
 };
 
