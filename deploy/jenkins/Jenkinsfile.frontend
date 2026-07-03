@@ -24,37 +24,30 @@ pipeline {
 
     stage('Install dependencies') {
       steps {
-        dir('frontend') {
-          withCredentials([file(credentialsId: 'npmrc-file', variable: 'NPMRC')]) {
-            sh '''
-              cp $NPMRC .npmrc
-              npm ci
-              rm -f .npmrc
-            '''
-          }
+        withCredentials([file(credentialsId: 'npmrc-file', variable: 'NPMRC')]) {
+          sh '''
+            cp $NPMRC .npmrc
+            npm ci
+            rm -f .npmrc
+          '''
         }
       }
     }
 
     stage('Build') {
       steps {
-        dir('frontend') {
-          // Uses environments/.env.aws directly (no npm script exists for
-          // this env yet) - fill in REACT_APP_SSO_redirect_uri /
-          // post_logout_redirect_uri in that file once the CloudFront
-          // domain is known (DEPLOYMENT.md, Part 6).
-          sh 'npx env-cmd -f environments/.env.aws react-scripts build'
-        }
+        // Uses environments/.env.aws directly - fill in REACT_APP_SSO_redirect_uri /
+        // post_logout_redirect_uri in that file once the CloudFront
+        // domain is known (DEPLOYMENT.md, Part 6).
+        sh 'npx env-cmd -f environments/.env.aws react-scripts build'
       }
     }
 
     stage('Deploy to S3') {
       steps {
-        dir('frontend') {
-          sh """
-            aws s3 sync build/ s3://${S3_BUCKET} --delete --region ${AWS_REGION}
-          """
-        }
+        sh """
+          aws s3 sync build/ s3://${S3_BUCKET} --delete --region ${AWS_REGION}
+        """
       }
     }
 
